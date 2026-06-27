@@ -1,0 +1,12 @@
+name: TimeBracket
+version: 1.0
+main: com.timebrackets.timebracket.TimeBracketPlugin
+api-version: 1.21
+description: The Time Bracket travel device for Time Brackets MMO
+authors: [TimeBrackets]
+
+commands:
+  givebracket:
+    description: Give a player the Time Bracket item
+    usage: /givebracket <player>
+    permission: timebracket.give
